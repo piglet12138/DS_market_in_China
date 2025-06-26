@@ -1,0 +1,22 @@
+# 数据分析师岗位综合分析看板依赖包
+
+# 核心数据处理
+pandas>=1.3.0
+numpy>=1.21.0
+
+# 数据可视化
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.15.0
+
+# Web应用框架
+streamlit>=1.28.0
+
+# Excel文件支持
+openpyxl>=3.0.0
+
+# 网络分析（如果需要）
+networkx>=2.6.0
+
+# 其他工具
+warnings 
