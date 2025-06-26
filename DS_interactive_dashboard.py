@@ -403,7 +403,7 @@ def calculate_company_scores(df_filtered):
     valid_df['规模评分'] = valid_df['规模评分'].clip(0, 20)
     
     # 3. 头腰尾评分 (0-15分)
-    head_tail_scores = {'头': 15, '腰': 10, '尾': 5}
+    head_tail_scores = {'头部': 15, '腰部': 10, '尾部': 5}
     valid_df['头腰尾评分'] = valid_df['头腰尾'].map(head_tail_scores).fillna(7.5)
     
     # 4. DS团队规模评分 (0-15分)
